@@ -1,18 +1,17 @@
 /* style.css */
 
-html, body {
+html {
     height: 100%;
+    width: 100%;
+    margin: 0;
   }
   
   body {
+    width: 100%;
+    height: 100%;
     margin: 0;
-    display: flex;
-  
-    /* This centers our sketch horizontally. */
-    justify-content: center;
-  
-    /* This centers our sketch vertically. */
-    align-items: center;
+    display: block;  
+    background-color: black;
   }
 
   .card > .media {
@@ -20,10 +19,7 @@ html, body {
     height: 170px;
   }
 
-  canvas {
-    position:fixed;
-    left:0;
-    top:0;
-    width:100%;
-    height:100%;
-}
+  .p5Canvas {
+    width: 100%;
+    height: 100%;
+  }
